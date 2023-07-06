@@ -1,0 +1,42 @@
+.name {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3vw;
+  font-family: Comic Sans MS;
+}
+
+button {
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(133, 211, 16);
+  border-color: rgb(133, 211, 16);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3vw;
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flyingPig {
+  width: 5%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.list-group-item {
+  background-color: rgb(16, 13, 25);
+  color: lightgrey;
+}
+
+.nav-link {
+  color: lightgrey;
+}

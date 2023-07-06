@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaccy's Personal Website</title>
+    <style>
+      #avatar {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 25%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8ce4306106.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="font-family: Comic Sans MS">
+    <!-- Nav bar setup -->
+    <ul
+      class="nav justify-content-end"
+      style="background-color: rgb(56, 44, 82)"
+    >
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Hobbies</a>
+      </li>
+    </ul>
+    <!-- setup icon, name, bg pic -->
+    <div class="col align-self-center">
+      <div style="position: relative; text-align: center">
+        <img
+          src="./images/the end of earth.jpg"
+          alt="bgPic"
+          style="filter: brightness(40%); max-width: 100%"
+        />
+        <div>
+          <img id="avatar" src="./images/icon.jpg" alt="Avatar" />
+        </div>
+        <div class="name">Jaccy LI</div>
+        <button>Try me !</button>
+      </div>
+    </div>
+    <!-- About Me -->
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <div class="aboutMe">
+          <img class="flyingPig" src="./images/greypig.jpg" alt="greypig" />
+          <img class="flyingPig" src="./images/brownpig.jpg" alt="brownpig" />
+          <img class="flyingPig" src="./images/bluepig.jpg" alt="bluepig" />
+          <h1>About Me</h1>
+          <img class="flyingPig" src="./images/yellowpig.jpg" alt="yellowpig" />
+          <img class="flyingPig" src="./images/redpig.jpg" alt="redpig" />
+          <img class="flyingPig" src="./images/greenpig.jpg" alt="greenpig" />
+        </div>
+      </li>
+      <li class="list-group-item" style="padding-left: 5%; padding-right: 6%">
+        Hi, this is <strong>Jaccy</strong>. I am quite a quiet guy, but you may
+        find out I am also talkative getting along well with each other. There
+        are a number of things I like. For instance, I enjoy studying in coffee
+        shops whilst having coffee and listening to quiet music; I like watching
+        comedies but also horror movies; Animals like cats and dogs are always
+        drawing my attention as they are simple and make me feel relaxed if with
+        their accompany; Hiking is also what I like; well, that's enough for a
+        hundred words, I suppose.
+      </li>
+    </ul>
+    <!-- setup skills -->
+    <div style="background-color: rgb(11, 167, 11); color: whitesmoke">
+      <div class="container">
+        <div class="row">
+          <div class="col" style="text-align: center">
+            <h1>Skills</h1>
+            <p>
+              As a Junior Web-Developer, I am working to enhance and learn
+              more.<br />Currently, these are the skills I have!
+            </p>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="row d-flex justify-content-center">
+            <div class="col">1 of 3</div>
+            <div class="col">2 of 3</div>
+            <div class="col">3 of 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
