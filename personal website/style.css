@@ -40,3 +40,27 @@ button {
 .nav-link {
   color: lightgrey;
 }
+
+.skillLogo {
+  border-radius: 10%;
+  width: 50%;
+  height: auto;
+}
+
+.travelPic {
+  border-radius: 2%;
+  width: 98%;
+  height: auto;
+}
+
+.BBQ {
+  border-radius: 50%;
+  width: 50%;
+  height: auto;
+}
+
+.bigBBQ {
+  border-radius: 50%;
+  width: 80%;
+  height: auto;
+}
