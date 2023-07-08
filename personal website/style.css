@@ -1,6 +1,6 @@
 .name {
   position: absolute;
-  top: 60%;
+  top: 67%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -14,7 +14,7 @@ button {
   background-color: rgb(133, 211, 16);
   border-color: rgb(133, 211, 16);
   position: absolute;
-  top: 70%;
+  top: 77%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.3vw;
@@ -65,4 +65,12 @@ button {
   height: auto;
   margin-bottom: 5%;
   margin-top: 5%;
+}
+
+.navbar-transparent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
 }
